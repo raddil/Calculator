@@ -5,17 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-	
-	 private static void pressAnyKeyToContinue()
-	 { 
-	        System.out.println("Press Enter key to continue...");
-	        try
-	        {
-	            System.in.read();
-	        }  
-	        catch(Exception e)
-	        {}  
-	 }
+
+	private static void pressAnyKeyToContinue() {
+		System.out.println("Press Enter key to continue...");
+		try {
+			System.in.read();
+		} catch (Exception e) {
+		}
+	}
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		Boolean state = true;
@@ -32,9 +29,9 @@ public class Main {
 			System.out.println("0) Exit");
 
 			Double numberA, numberB;
-			
+
 			String choice = reader.readLine();
-			
+
 			switch (choice) {
 			case "1":
 				new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
