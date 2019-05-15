@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UnitTestForCalculator" parallel="false">
+  <test name="AddUnitTest">
+    <classes>
+      <class name="com.Calculator.AddUnitTest"/>
+    </classes>
+  </test> 
+  
+   <test name="SubUnitTest">
+    <classes>
+      <class name="com.Calculator.SubUnitTest"/>
+    </classes>
+  </test> 
+  
+   <test name="MulUnitTest">
+    <classes>
+      <class name="com.Calculator.MulUnitTest"/>
+    </classes>
+  </test> 
+  
+   <test name="DivUnitTest">
+    <classes>
+      <class name="com.Calculator.DivUnitTest"/>
+    </classes>
+  </test> 
+</suite> 
